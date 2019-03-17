@@ -2,19 +2,19 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Shrubbery, etc.</title>
+  <title>Shrubbery</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400i,700" rel="stylesheet">
 </head>
 <body>
 
   <ul class="skip-links">
     <li><a href="#main">Jump to main content</a></li>
-    <li><a href="#nav">Jump to navagation</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
   </ul>
 
   <header role="banner" class="masthead">
@@ -24,11 +24,11 @@
     <div class="nav">
       <nav id="nav" role="navigation" class="wrapper gutter-1-2" tabindex="0">
         <ul class="mega list-group-inline push-0">
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">About</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Shrubs</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Prices</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">News</a></li>
-          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#">Contact</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#about">About</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#shrubs">Shrubs</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#prices">Prices</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#news">News</a></li>
+          <li><a class="ib gutter-1-2 pad-t-1-2 pad-b-1-2" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -37,10 +37,10 @@
   <main role="main" id="main" tabindex="0">
     <section class="about push" id="about" tabindex="0">
       <div class="embed embed-24by10">
-        <img class="embed-item" src="images/shrbs.jpg" alt="">
+        <img class="embed-item" src="images/shrubs.jpg" alt="banner image of shrubs" aria-label="The banner image of shrubs">
       </div>
       <div class="about-content pad-t-2 pad-b-2">
-        <div class="wrapper gutter-1-2">
+        <div class="bold wrapper gutter-1-2">
           <h2 class="push-0">About</h2>
           <p class="mega push-0">Is there anywhere in this town where we could buy a shrubbery!?</p>
           <p class="mega push-0 max-length not-centered">Yes, shrubberies are my trade—I am a shrubber. My name is Roger the Shrubber. I arrange, design, and sell shrubberies.</p>
@@ -84,7 +84,7 @@
         <p class="mega max-length not-centered">Even those who arrange and design shrubberies are under considerable economic stress at this period in history.</p>
 
         <table>
-          <caption>Prices for small,medium and large shrubberies</caption>
+          <caption>Prices for small, medium and large shrubberies</caption>
           <thead>
             <tr>
               <th scope="col">&nbsp;</th>
@@ -124,16 +124,16 @@
 
         <ol class="list-group">
           <li class="push">
-            <h3 class="push-0"><a href="#">What makes a good shrubbery?</a></h3>
-            <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood. <a href="#">Read&nbsp;more…</a></p>
+            <h3 class="push-0 posts"><a href="#">What makes a good shrubbery?</a></h3>
+            <p class="push-0">A quick checklist for determining if a shrub is worthy of knighthood. <a href="#" aria-label="Read more about what makes a good shrubbery">Read more…</a></p>
           </li>
           <li class="push">
-            <h3 class="push-0"><a href="#">Shrubbery recycling</a></h3>
-            <p class="push-0">I will come pick up your shrub and recycle it. Though why you’d want to get rid of a shrubbery I do not know. <a href="#">Read&nbsp;more…</a></p>
+            <h3 class="push-0 posts"><a href="#">Shrubbery recycling</a></h3>
+            <p class="push-0">I will come pick up your shrub and recycle it. Though why you’d want to get rid of a shrubbery I do not know. <a href="#" aria-label="Read more about shrubbery recycling">Read more…</a></p>
           </li>
           <li class="push">
-            <h3 class="push-0"><a href="#">Greens of any kind!</a></h3>
-            <p class="push-0">I now sell and plant more than just shrubs! Greens of any kind: lettuce, kale, onions, grasses, trees, etc. <a href="#">Read&nbsp;more…</a></p>
+            <h3 class="push-0 posts"><a href="#">Greens of any kind!</a></h3>
+            <p class="push-0">I now sell and plant more than just shrubs! Greens of any kind: lettuce, kale, onions, grasses, trees, etc. <a href="#" aria-label="Read more about greens of any kind">Read more…</a></p>
           </li>
         </ol>
       </div>
@@ -153,6 +153,7 @@
             <label for="email" class="push-1-8">E-mail address</label>
             <input id="email" type="email" required>
           </div>
+
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="type" class="push-1-8">Type of shrubbery</label>
             <select id="type" name="type">
