@@ -41,6 +41,10 @@ a:hover {
   color: #113c00;
 }
 
+.nav a:focus {
+  outline: 3px solid #000;
+}
+
 .about {
   position: relative;
 }
@@ -63,6 +67,10 @@ td {
   background-color: #eeebe9;
 }
 
+.news a {
+  text-decoration: underline;
+}
+
 .contact {
   background-color: #dfdcda;
 }
@@ -70,7 +78,6 @@ td {
 .btn {
   background-color: #113c00;
   border-color: #113c00;
-
   color: #fff;
 }
 
@@ -82,6 +89,14 @@ td {
 .footer {
   background-color: #113c00;
   color: #fff;
+}
+
+.skip-links a {
+  text-decoration: underline;
+}
+
+.posts a {
+  color: #568c36;
 }
 
 @media only screen and (min-width: 35em) {
